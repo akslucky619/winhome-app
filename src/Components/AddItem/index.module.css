@@ -1,0 +1,125 @@
+.wrapper {
+  padding: 87px 87px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.wrapper > input {
+  padding: 33px 0 33px 33px;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: black;
+}
+
+.wrapper > textarea {
+  padding: 33px 0 126px 33px;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: black;
+}
+
+.wrapper > button {
+  border-radius: 36.5px;
+  background: #005981;
+  align-self: center;
+  padding: 7px 61px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper > p {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 138.523%; /* 22.164px */
+}
+
+.wrapper > h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.editSection {
+  display: flex;
+  justify-content: flex-start;
+  gap: 61px;
+  margin-top: 55px;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.deleteButton {
+  background: #d4a656;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    padding: 30px 30px;
+    gap: 20px;
+  }
+
+  .wrapper > input,
+  .wrapper > textarea {
+    padding: 20px 0 20px 20px;
+  }
+
+  .wrapper > button {
+    padding: 5px 30px;
+  }
+
+  .editSection {
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .iconWrapper {
+    gap: 3px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .wrapper {
+    padding: 50px 50px;
+    gap: 25px;
+  }
+
+  .wrapper > input,
+  .wrapper > textarea {
+    padding: 25px 0 25px 25px;
+  }
+
+  .wrapper > button {
+    padding: 6px 40px;
+  }
+
+  .editSection {
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .iconWrapper {
+    gap: 4px;
+  }
+}
